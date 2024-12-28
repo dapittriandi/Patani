@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema utama -->
+    <style name="Theme.AppName" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Warna utama -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- Status bar dan navigation bar -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">true</item> <!-- Status bar teks gelap -->
+
+        <!-- Latar belakang -->
+        <item name="android:windowBackground">@color/windowBackground</item>
+
+        <!-- Komponen edge-to-edge -->
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+</resources>

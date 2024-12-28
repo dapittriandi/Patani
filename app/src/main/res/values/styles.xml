@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomButtonStyle">
+        <!-- Menetapkan latar belakang gradien -->
+        <item name="android:background">@drawable/gradient</item>
+        <!-- Menetapkan warna teks tombol -->
+        <item name="android:textColor">@color/white</item>
+        <!-- Menambahkan elevation -->
+        <item name="android:elevation">10dp</item>
+    </style>
+</resources>
